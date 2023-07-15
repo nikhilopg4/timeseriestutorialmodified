@@ -9,16 +9,11 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import tensorflow as tf
-# !pip install polygon-api-client
 !pip install plotly
 !pip install yahoo_fin
 from yahoo_fin.stock_info import get_data
 import plotly.graph_objects as go
 from plotly.offline import plot
-# polygon_API_key = 'tq94tYrTYe_PhGBeZ5I_5uvEIlQaSao7'
-# from polygon import RESTClient
-# client = RESTClient(polygon_API_key) # POLYGON_API_KEY is used
-# client = RESTClient("tq94tYrTYe_PhGBeZ5I_5uvEIlQaSao7") # api_key is used
 
 
 mpl.rcParams['figure.figsize'] = (8, 6)
